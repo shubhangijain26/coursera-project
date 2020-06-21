@@ -7,5 +7,15 @@ body {
   padding: 0; 
   margin: 0; 
   font-family: Roboto, sans-serif; 
+  font-weight: 600;
   
+}
+
+.mat-list-item {
+  font-weight: 600;
+}
+
+.container {
+  margin: 20px;
+  display:flex;
 }
