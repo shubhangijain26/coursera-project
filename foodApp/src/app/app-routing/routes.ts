@@ -11,4 +11,5 @@ export const routes : Routes = [
     { path: 'dishdetail/:id', component: DishDetailComponent},
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: 'contactus',     component: ContactComponent },
+    { path: 'about',  component: AboutComponent },
 ]
