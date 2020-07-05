@@ -7,6 +7,7 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { AppRoutingModule } from '../app-routing/app-routing.module';
 
 import 'hammerjs'
 @NgModule({
@@ -18,7 +19,8 @@ import 'hammerjs'
         MatGridListModule,
         MatCardModule,
         MatButtonModule,
-        MatIconModule
+        MatIconModule,
+        AppRoutingModule
       ],
       exports: [
         CommonModule,
@@ -28,7 +30,8 @@ import 'hammerjs'
         MatGridListModule,
         MatCardModule,
         MatButtonModule,
-        MatIconModule
+        MatIconModule,
+        AppRoutingModule
       ],
 })
 

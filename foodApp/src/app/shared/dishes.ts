@@ -3,14 +3,14 @@ import { Dish } from './menu';
  export const DISHES : Dish[] = [
     {
         id: '0',
-        name: 'Uthappizza',
-        image: '/assets/images/uthappizza.png',
+        name: 'Pizza, amore e fantasia',
+        image: '/assets/images/pizza.jpg',
         category: 'mains',
         featured: true,
         label: 'Hot',
         price: '4.99',
         // tslint:disable-next-line:max-line-length
-        description: 'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.',
+        description: 'Pizza is a savory dish of Italian origin consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.) which is then baked at a high temperature, traditionally in a wood-fired oven.',
         comments: [
             {
                 rating: 5,
@@ -46,13 +46,13 @@ import { Dish } from './menu';
     },
     {
         id: '1',
-        name: 'Zucchipakoda',
-        image: '/assets/images/zucchipakoda.png',
+        name: 'Indiano buffeto',
+        image: '/assets/images/indian.jpg',
         category: 'appetizer',
         featured: false,
-        label: '',
+        label: 'New',
         price: '1.99',
-        description: 'Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce',
+        description: 'Its a mouthwatering combinations with a choice of five different veggies',
         comments: [
             {
                 rating: 5,
@@ -88,13 +88,13 @@ import { Dish } from './menu';
     },
     {
         id: '2',
-        name: 'Vadonut',
-        image: '/assets/images/vadonut.png',
-        category: 'appetizer',
+        name: 'Chole Bhature',
+        image: '/assets/images/chole.jpeg',
+        category: 'dessert',
         featured: false,
-        label: 'New',
-        price: '1.99',
-        description: 'A quintessential ConFusion experience, is it a vada or is it a donut?',
+        label: '',
+        price: '2.99',
+        description: 'It is a combination of chana masala and bhatura/Puri, a fried bread made from maida. There is a distinct Punjabi variant of the dish',
         comments: [
             {
                 rating: 5,
@@ -130,13 +130,13 @@ import { Dish } from './menu';
     },
     {
         id: '3',
-        name: 'ElaiCheese Cake',
-        image: '/assets/images/elaicheesecake.png',
-        category: 'dessert',
+        name: 'Honey Chiili Potatoista',
+        image: '/assets/images/potato.jpg',
+        category: 'appetizer',
         featured: false,
         label: '',
-        price: '2.99',
-        description: 'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms',
+        price: '1.99',
+        description: 'Sliced potatoes coated n red chilli, deep fried with the garlic paste and spring onions. Sauteed with capsicum, honey, salt, soya sauce and chilli sauce, honey chilli potatoes are the perfect snack to binge on',
         comments: [
             {
                 rating: 5,
@@ -169,5 +169,5 @@ import { Dish } from './menu';
                 date: '2011-12-02T17:57:28.556094Z'
             }
         ]
-    }
+    },
 ]
