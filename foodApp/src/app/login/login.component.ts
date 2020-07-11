@@ -14,4 +14,8 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
 
+  onSubmit() {
+    console.log('User: ', this.user);
+    this.dialogRef.close();
+  } 
 }
